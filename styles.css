@@ -1,0 +1,54 @@
+* {
+	font-family: Mont, Verdana, Brutel, sans-serif;
+	/* border: solid red 3px; */
+}
+
+.background {
+	background-color: darkslategrey;
+	color: white;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 3vh;
+	height: 5vh;
+	font-weight: 900;
+	padding-top: 1vh;
+	padding-bottom: 0.5vh;
+	background-color: darkslateblue;
+}
+
+.header-right {
+	padding-right: 5vw;
+}
+
+.header-left {
+	padding-left: 3vw;
+}
+
+.grid {
+	height: 93.5vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.verticals {
+	display: flex;
+	flex-direction: column;
+	border-color: yellow;
+}
+
+.horizontals {
+	display: flex;
+	flex-direction: row;
+}
+
+.grid-boxes {
+	border: 0.05vh #264040 solid;
+	width: 3vh;
+	height: 3vh;
+}
+
