@@ -1,6 +1,6 @@
 * {
 	font-family: Mont, Verdana, Brutel, sans-serif;
-	/* border: solid red 3px; */
+	/* border: solid red 1px; */
 }
 
 .background {
@@ -18,7 +18,8 @@
 	font-weight: 900;
 	padding-top: 1vh;
 	padding-bottom: 0.5vh;
-	background-color: darkslateblue;
+	background-image: linear-gradient(darkslateblue, #382F6C);
+	/* background-color: darkslateblue; */
 }
 
 .header-right {
@@ -52,3 +53,36 @@
 	height: 3vh;
 }
 
+
+.button {
+	border-radius: 1vh;
+	font-size: 2.2vh;
+	font-weight: 700;
+	border-style: double;
+}
+
+.color {
+	width: 8vw;
+	/* padding-right: 5vw; */
+}
+
+.R {
+	background-color: #D44A4A;
+}
+
+.B {
+	background-color: #4A94D4;
+}
+
+.G {
+	background-color: #73D44A;
+}
+
+.Random {
+	width: 14vw;
+	background: linear-gradient(red, orange, yellow, green, blue, indigo)
+	/*Sorry violet, indigo is enough for a purple color!*/
+}
+
+.reset {
+}
